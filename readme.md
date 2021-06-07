@@ -2,12 +2,17 @@
 Basic custom theme for Rofi launcher.
 
 ## Demo
-![Screenshot of theme]('theme_demo.png')
+![Screenshot of theme](/demo_images/theme_demo.png)
 
 ## Usage
-Install rofi launcher. Available in all major package repositories
+Install rofi launcher. Available in all major package repositories.
+
+For debian based
 ```
 sudo apt install rofi
+```
+for Arch based
+```
 sudo pacman -S rofi
 ```
 clone the repository or download its contents
