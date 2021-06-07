@@ -51,6 +51,7 @@ entry{
     background-color: @background-accent;
 }
 
+/* list items which contain the search results  */
 listview{
     background-color: inherit;
     lines:4;
@@ -58,6 +59,12 @@ listview{
     fixed-columns:true;
 }
 
+/* small indicator after search bar  */
+case-indicator{
+    background-color: @colored-accent;
+}
+
+/* individual items in search results */
 element{
     background-color: inherit;
     color:@highlight-main;
@@ -79,6 +86,7 @@ element selected{
     border-radius: 0.3%;
 }
 
-case-indicator{
-    background-color: @colored-accent;
+error-message{
+    background-color: inherit;
+    color:@highlight-main;
 }
