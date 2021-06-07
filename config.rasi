@@ -1,4 +1,4 @@
 configuration {
     /* Name of theme file*/
-    theme: "eva_02";
+    theme: "launcher_theme";
 }

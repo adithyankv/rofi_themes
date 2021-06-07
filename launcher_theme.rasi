@@ -10,12 +10,15 @@ configuration{
     display-drun: "🔍";
 }
 
+/* importing color palette from color palette file */
+@import "palette_eva.rasi"
+
 window{
-    anchor:south;
-    background-color: #161920;
-    width:60%;
+    anchor:center;
+    background-color: @background-main;
+    width:50%;
     transparency:"real";
-    opacity: 0.8;
+    opacity: 0.9;
     border-radius: 5px;
 }
 
@@ -33,9 +36,9 @@ inputbar{
 /* prompt for search box */
 prompt{
     padding:0.8%;
-    background-color:#be535a;
+    background-color:@colored-accent;
     opacity:1;
-    color:#F8F0F2;
+    color:@light-text;
     font:"RobotoMono Nerd 14";
 }
 
@@ -43,26 +46,39 @@ prompt{
 entry{
     padding:1%;
     placeholder:"Search for applications";
-    placeholder-color:#8c8c94;
-    color:#8c8c94;
-    background-color: #252e35;
+    placeholder-color:@highlight-main;
+    color:@highlight-main;
+    background-color: @background-accent;
 }
 
 listview{
     background-color: inherit;
-    lines:5;
-    columns: 3;
+    lines:4;
+    columns: 4;
+    fixed-columns:true;
 }
 
 element{
     background-color: inherit;
-    color:#8c8c94;
+    color:@highlight-main;
+    padding:2% 0%;
+    orientation:vertical;
+}
+
+element-icon{
+    size:5%;
+}
+
+element-text{
+    horizontal-align:0.5;
+    vertial-align:0.5;
 }
 
 element selected{
-    background-color: #252e35;
+    background-color:@background-accent;
+    border-radius: 0.3%;
 }
 
 case-indicator{
-    background-color: #be535a;
+    background-color: @colored-accent;
 }

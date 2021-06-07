@@ -1,0 +1,11 @@
+/* color palette for evangelion wallpaper */
+/* https://www.wallpaperflare.com/white-cross-digital-illustration-evangelion-neon-genesis-evangelion-wallpaper-zqvt */
+
+/* colors */
+*{
+    highlight-main:#8c8c94;
+    background-accent:#252e35;
+    background-main:#161920;
+    colored-accent:#be535a;
+    light-text:#F8F0F2;
+}
