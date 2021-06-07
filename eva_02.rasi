@@ -1,0 +1,68 @@
+/* Initial configuration settings*/
+configuration{
+
+    /* show icons and set icon theme */
+    show-icons: true;
+    icon-theme: "Papirus-Dark";   
+
+    /* setting up fonts */
+    font:"RobotoMono Nerd 12";
+    display-drun: "🔍";
+}
+
+window{
+    anchor:south;
+    background-color: #161920;
+    width:60%;
+    transparency:"real";
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+/* box containing searchbox and results list */
+mainbox{
+    padding:1.5%;
+    background-color:inherit;
+}
+
+/* box containing prompt and search bar */
+inputbar{
+    background-color: inherit;
+}
+
+/* prompt for search box */
+prompt{
+    padding:0.8%;
+    background-color:#be535a;
+    opacity:1;
+    color:#F8F0F2;
+    font:"RobotoMono Nerd 14";
+}
+
+/* search box */
+entry{
+    padding:1%;
+    placeholder:"Search for applications";
+    placeholder-color:#8c8c94;
+    color:#8c8c94;
+    background-color: #252e35;
+}
+
+listview{
+    background-color: inherit;
+    lines:5;
+    columns: 3;
+}
+
+element{
+    background-color: inherit;
+    color:#8c8c94;
+}
+
+element selected{
+    background-color: #252e35;
+}
+
+case-indicator{
+    background-color: #be535a;
+}
