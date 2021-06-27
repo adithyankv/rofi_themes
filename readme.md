@@ -1,7 +1,13 @@
-# Rofi Theme
-Basic custom theme for Rofi launcher.
+# Rofi Themes
+Basic custom themes for the rofi run launcher.
 
-## Demo
+## Themes
+
+## moody rose theme
+Made to work with the [Rose image by Xuan Nguyen](https://unsplash.com/photos/-mKZfFegpRw) as wallpaper.Taken from [Unsplash](https://unsplash.com/)
+![Rose theme demo](/demo_images/rofi_demo.png)
+
+## eva theme
 ![Screenshot of theme](/demo_images/theme_demo.png)
 
 ## Usage
@@ -19,7 +25,7 @@ clone the repository or download its contents
 ```
 git clone https://github.com/Adithyan-KV/rofi_config.git
 ```
-Add all files to *~/.config/rofi*
+Add all files inside the relevant theme folder to *~/.config/rofi*
 
 ## Resources
 Instructions for theming rofi
